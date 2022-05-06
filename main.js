@@ -1,10 +1,10 @@
-var images = ["https://i.postimg.cc/MGn9GJXw/family.jpg","https://i.postimg.cc/qqyYvVbq/grandpa.jpg", "https://i.postimg.cc/wjMnFtMX/father.jpg" , "https://i.postimg.cc/5ymDKL83/bro.jpg", "https://i.postimg.cc/JnL6wtrd/sister.jpg", "https://i.postimg.cc/bw5W5zSK/mother.jpg"];
-var names = ["Family Book","Ranbir Singh", "Diljeet Singh", "Rocky Singh", "Alia Singh", "Soni Singh"];
+var images = ["a.jpeg","20210524_211924.jpg", "20210524_144345.jpg" , "IMG-20210524-WA0001.jpg", "IMG-20210317-WA0006.jpg"];
+var names = ["Family Book","D.Ramesh", "K.Vishaka Priya", "R.Rakshan", "R.Krithik"];
 var i = 0;
 function update()
 {
     i++;
-    var numbers_of_family_member_in_array = 5
+    var numbers_of_family_member_in_array = 4
     if(i > numbers_of_family_member_in_array)
       {
           i = 0;
